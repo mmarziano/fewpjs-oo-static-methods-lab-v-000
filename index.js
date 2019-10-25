@@ -16,7 +16,7 @@ class Formatter {
     let s = sentence.split(' ')
     s.map(function(word) {
        if (word !== arr.find(s => word === s)) {
-        s.charAt(0).toUpperCase() + str.slice(1)
+        s.charAt(0).toUpperCase() + s.slice(1)
       }
     })
   }
