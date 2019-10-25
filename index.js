@@ -14,9 +14,12 @@ class Formatter {
   static titleize(sentence) {
     let arr = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     let s = sentence.split(' ')
-      if (s !== arr.find(s)) {
+    s.map(function(word) {
+       if (s !== arr.find(s)) {
         s.charAt(0).toUpperCase() + str.slice(1)
       }
+    })
+     
    
     
     
