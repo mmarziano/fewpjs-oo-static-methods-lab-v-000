@@ -19,11 +19,6 @@ class Formatter {
         s.charAt(0).toUpperCase() + str.slice(1)
       }
     })
-     
-   
-    
-    
-    
   }
   
 }
