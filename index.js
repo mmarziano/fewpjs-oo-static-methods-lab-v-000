@@ -17,7 +17,7 @@ class Formatter {
       if (s !== arr.find(s)) {
         s.charAt(0).toUpperCase() + str.slice(1)
       }
-    console.log('sentence', s)
+   
     
     
     
