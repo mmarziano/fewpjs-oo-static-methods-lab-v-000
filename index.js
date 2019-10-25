@@ -15,7 +15,7 @@ class Formatter {
     let arr = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     let s = sentence.split(' ')
     s.map(function(word) {
-       if (s !== arr.find(word => word === s)) {
+       if (word !== arr.find(s => word === s)) {
         s.charAt(0).toUpperCase() + str.slice(1)
       }
     })
